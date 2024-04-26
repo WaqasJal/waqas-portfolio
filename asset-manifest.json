@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.515bbe86.css",
-    "main.js": "/static/js/main.33dfece1.js",
+    "main.css": "/static/css/main.6fce6dc3.css",
+    "main.js": "/static/js/main.8ef12c57.js",
     "static/js/453.67b7b334.chunk.js": "/static/js/453.67b7b334.chunk.js",
     "static/media/Waqas.jpg": "/static/media/Waqas.4878949755dfb8be600f.jpg",
+    "static/media/Background1.jpg": "/static/media/Background1.83883ceb9fb3c82ce369.jpg",
+    "static/media/HTMLLogo.svg": "/static/media/HTMLLogo.8f9d3fe13e4262164f920a05962d6348.svg",
+    "static/media/ReactLogo.svg": "/static/media/ReactLogo.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/JSLogo.svg": "/static/media/JSLogo.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/TailwindLogo.svg": "/static/media/TailwindLogo.68603ef4173093c409dcd59733df7ecf.svg",
     "index.html": "/index.html",
-    "main.515bbe86.css.map": "/static/css/main.515bbe86.css.map",
-    "main.33dfece1.js.map": "/static/js/main.33dfece1.js.map",
+    "main.6fce6dc3.css.map": "/static/css/main.6fce6dc3.css.map",
+    "main.8ef12c57.js.map": "/static/js/main.8ef12c57.js.map",
     "453.67b7b334.chunk.js.map": "/static/js/453.67b7b334.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.515bbe86.css",
-    "static/js/main.33dfece1.js"
+    "static/css/main.6fce6dc3.css",
+    "static/js/main.8ef12c57.js"
   ]
 }
