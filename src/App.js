@@ -12,7 +12,7 @@ import Background1 from './Picture/Background1.jpg'; // Import the background im
 const App = () => {
   return (
     
-    <div className="flex flex-col md:flex-row h-screen bg-slate-900 ">
+    <div className="flex flex-col md:flex-row h-screen bg-zinc-900 ">
       {/* Background */}
       {/* <div
         className="absolute z-0 bg-cover bg-center"
@@ -45,40 +45,48 @@ const App = () => {
           </div>
         {/* Social Media Links */}
         <div className="flex absolute bottom-0 left-0 m-8 space-x-12">
-          <a href="https://github.com/WaqasJal?tab=repositories" target="_blank" rel="noopener noreferrer" className="text-purple-500 hover:text-purple-700">
+          <a href="https://www.linkedin.com/in/waqas-jalali/" target="_blank" rel="noopener noreferrer" className="text-purple-500 hover:text-purple-700">
             <FaLinkedin className="w-12 h-12" />
           </a>
-          <a href="https://www.linkedin.com/in/waqas-jalali/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+          <a href="https://github.com/WaqasJal" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
             <FaGithub className="w-12 h-12" />
           </a>
         </div>
       </div>
       
-      {/* Right Half */}
-      <div className="md:w-1/2  p-8 flex flex-col justify-center items-center" style={{ fontFamily: 'Open Sans' }}>
+     {/* Right Half */}
+     <div className="md:w-1/2  p-8 flex flex-col justify-center items-center" style={{ fontFamily: 'Open Sans' }}>
         <h2 className="text-2xl font-bold mb-4 text-white">Projects</h2>
         <div className="max-w-xl text-white">
           {/* Individual Project Cards */}
-          <div className="bg-gradient-to-r from-zinc-600 to-slate-900 shadow-md rounded-lg p-16 mb-4 transform transition duration-500 hover:scale-105">
-            <h3 className="text-xl font-semibold mb-2">Out of Office Media Website</h3>
-            <p className="text-gray-900">Project description goes here.</p>
-            {/* Add more details/buttons as needed */}
-          </div>
-          <div className="bg-blue-100 shadow-md rounded-lg p-16 mb-4 transform transition duration-500 hover:scale-105">
-            <h3 className="text-xl font-semibold mb-2 ">Autonomous Line Following Drone</h3>
-            <p className="text-gray-900">Project description goes here.</p>
-            {/* Add more details/buttons as needed */}
-          </div>
-          <div className="bg-blue-100 shadow-md rounded-lg p-16 mb-4 transform transition duration-500 hover:scale-105">
-            <h3 className="text-xl font-semibold mb-2 ">Hospital Management Webapp</h3>
-            <p className="text-gray-900">Project description goes here.</p>
-            {/* Add more details/buttons as needed */}
-          </div>
-          <div className="bg-blue-100 shadow-md rounded-lg p-16 mb-4 transform transition duration-500 hover:scale-105">
-            <h3 className="text-xl font-semibold mb-2 ">NBA Database Management System</h3>
-            <p className="text-gray-900">Project description goes here.</p>
-            {/* Add more details/buttons as needed */}
-          </div>
+          <a href="https://out-of-office-waqas.netlify.app/" target="_blank" rel="noopener noreferrer" className="mb-4">
+            <div className="bg-gradient-to-r from-zinc-600 to-zinc-900 rounded-lg p-16 mb-4 transform transition duration-500 hover:scale-105">
+              <h3 className="text-xl font-semibold mb-2">Out of Office Media Website</h3>
+              <p className="text-gray-900">Client Infromational Media Business Website.</p>
+              {/* Add more details/buttons as needed */}
+            </div>
+          </a>
+          <a href="https://github.com/Ahkh3e/WorkingCapstone/blob/main/COE_FINAL_EDP_REPORT_TY05_2023.pdf" target="_blank" rel="noopener noreferrer" className="mb-4">
+            <div className="bg-gradient-to-r from-zinc-600 to-zinc-900 rounded-lg p-16 mb-4 transform transition duration-500 hover:scale-105">
+              <h3 className="text-xl font-semibold mb-2 ">Autonomous Line Following Drone</h3>
+              <p className="text-neutral-900">Autonomous Line following Drone.</p>
+              {/* Add more details/buttons as needed */}
+            </div>
+          </a>
+          <a href="https://github.com/Connor-Virgin/CPS714_Project" target="_blank" rel="noopener noreferrer" className="mb-4">
+            <div className="bg-gradient-to-r from-zinc-600 to-zinc-900 rounded-lg p-16 mb-4 transform transition duration-500 hover:scale-105">
+              <h3 className="text-xl font-semibold mb-2 ">Hospital Management Webapp</h3>
+              <p className="text-gray-900">Java hospital ERP webapp.</p>
+              {/* Add more details/buttons as needed */}
+            </div>
+          </a>
+          <a href="https://github.com/WaqasJal/NBA-DBMS" target="_blank" rel="noopener noreferrer">
+            <div className="bg-gradient-to-r from-zinc-600 to-zinc-900 rounded-lg p-16 mb-4 transform transition duration-500 hover:scale-105">
+              <h3 className="text-xl font-semibold mb-2 ">NBA Database Management System</h3>
+              <p className="text-gray-900">SQL Database Interface.</p>
+              {/* Add more details/buttons as needed */}
+            </div>
+          </a>
         </div>
       </div>
       {/* <div className="absolute inset-0 bg-cover bg-center z-0" style={{ backgroundImage: `url(${backdrop})`, }}></div> */}
