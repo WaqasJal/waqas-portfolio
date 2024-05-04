@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fce6dc3.css",
-    "main.js": "/static/js/main.8ef12c57.js",
+    "main.css": "/static/css/main.5a7c4977.css",
+    "main.js": "/static/js/main.5eb868ef.js",
     "static/js/453.67b7b334.chunk.js": "/static/js/453.67b7b334.chunk.js",
     "static/media/Waqas.jpg": "/static/media/Waqas.4878949755dfb8be600f.jpg",
     "static/media/Background1.jpg": "/static/media/Background1.83883ceb9fb3c82ce369.jpg",
@@ -10,12 +10,12 @@
     "static/media/JSLogo.svg": "/static/media/JSLogo.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
     "static/media/TailwindLogo.svg": "/static/media/TailwindLogo.68603ef4173093c409dcd59733df7ecf.svg",
     "index.html": "/index.html",
-    "main.6fce6dc3.css.map": "/static/css/main.6fce6dc3.css.map",
-    "main.8ef12c57.js.map": "/static/js/main.8ef12c57.js.map",
+    "main.5a7c4977.css.map": "/static/css/main.5a7c4977.css.map",
+    "main.5eb868ef.js.map": "/static/js/main.5eb868ef.js.map",
     "453.67b7b334.chunk.js.map": "/static/js/453.67b7b334.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fce6dc3.css",
-    "static/js/main.8ef12c57.js"
+    "static/css/main.5a7c4977.css",
+    "static/js/main.5eb868ef.js"
   ]
 }
