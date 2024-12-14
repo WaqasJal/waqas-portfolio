@@ -10,7 +10,7 @@ import SQLLogo from './Picture/SQLLogo.svg';
 import PythonLogo from 'C:/Users/Waqas/Documents/VS Code/waqas-portfolio/src/Picture/PythonLogo.svg';
 import JavaLogo from 'C:/Users/Waqas/Documents/VS Code/waqas-portfolio/src/Picture/JavaLogo.svg';
 
-import Background1 from './Picture/Background1.jpg'; // Import the background image
+// import Background1 from './Picture/Background1.jpg'; // Import the background image
 
 const SocialMediaLinks = () => (
   <div className="flex space-x-12">
@@ -71,9 +71,9 @@ const App = () => {
         <h2 className="text-4xl font-bold mb-4 text-white font-custom mt-0 lg:mt-0 md: mt-16 sm:mt-16">Projects</h2>
         <div className="max-w-xl text-white">
           {/* Individual Project Cards */}
-          <a href="https://insureme2-demo.netlify.app/" target="_blank" rel="noopener noreferrer" className="mb-4">
+          <a href="https://insureme2.ca" target="_blank" rel="noopener noreferrer" className="mb-4">
             <div className="bg-gradient-to-r from-zinc-600 to-zinc-900 rounded-lg p-16 mb-4 transform transition duration-500 hover:scale-105">
-              <h3 className="text-xl font-semibold mb-2">Insureme2 <span className="text-red-300">(Work in progress.)</span></h3>
+              <h3 className="text-xl font-semibold mb-2">Insureme2</h3>
               <p className="text-slate-400">Client Insurance Service Website.</p>
               {/* Add more details/buttons as needed */}
             </div>
