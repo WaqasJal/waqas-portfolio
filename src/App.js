@@ -45,7 +45,7 @@ const App = () => {
           />
         </div>
         <div className="mb-8  flex  justify-center w-full md:w-2/3 font-custom">
-          <p className="text-3xl p-4 text-center  text-white md: p-2" style={{ fontFamily: 'Open Sans' }}>
+          <p className="text-3xl p-4 text-center  text-white md:p-2" style={{ fontFamily: 'Open Sans' }}>
           Software engineering graduate with expertise in various fields of software technology, specializing in web and app development using JavaScript, Java, and Python. Excels in applying skills to a wide range of software projects, driven by a passion for continuous learning and innovation.
           </p>
         </div>
@@ -68,7 +68,7 @@ const App = () => {
       
      {/* Right Half */}
      <div className="md:w-1/2  p-8  flex flex-col justify-center items-center" style={{ fontFamily: 'Open Sans' }}>
-        <h2 className="text-4xl font-bold mb-4 text-white font-custom mt-0 lg:mt-0 md: mt-16 sm:mt-16">Projects</h2>
+        <h2 className="text-4xl font-bold mb-4 text-white font-custom mt-0 lg:mt-0 md:mt-16 sm:mt-16">Projects</h2>
         <div className="max-w-xl text-white">
           {/* Individual Project Cards */}
           <a href="https://insureme2.ca" target="_blank" rel="noopener noreferrer" className="mb-4">
